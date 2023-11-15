@@ -6,7 +6,7 @@
  */
 
 function home(){
-	window.location.href = 'https://10Nuts-Games.github.io/assets/games/fruit-ninja/'
+	window.location.href = 'https://10Nuts-Games.github.io/'
 }
 
 void function(global){
