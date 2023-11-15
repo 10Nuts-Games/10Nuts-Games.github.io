@@ -1,9 +1,13 @@
 ﻿/**
  * this file was compiled by jsbuild 0.9.6
- * @date Fri, 20 Jul 2012 16:21:18 UTC
+ * @date Fri, 20 Jul 2012 16:21:18 UT
  * @author dron
  * @site http://ucren.com
  */
+
+function home(){
+	window.location.href = 'https://10Nuts-Games.github.io/assets/games/fruit-ninja/'
+}
 
 void function(global){
 	var mapping = {}, cache = {};
