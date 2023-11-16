@@ -2,6 +2,7 @@ body {
   margin: 0px;
   background-color: rgb(19,19,19);
   overflow-y: hidden;
+  min-height: 100vh;
 }
 
 .titleDiv {
