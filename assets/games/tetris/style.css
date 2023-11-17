@@ -6,7 +6,7 @@ body {
   min-height: 100vh;
 }
 .main {
-  position: relative;
+  position: auto;
 }
 .titleDiv {
   border: 4px solid black;
