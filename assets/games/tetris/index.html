@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+      	<link rel='stylesheet' href='./style.css'>
+		<title>Untitled presentation</title>
+		<style>
+			html { background: #F7F7F7; }
+			#board {
+				margin: 0 auto;
+				display: block;
+				border: 2px solid black;
+				border-bottom: 5px solid green;
+				background: white;
+			}
+			#lines {
+				display: block;
+				width: 240px;
+				margin: 0 auto;
+				margin-top: 2em;
+				color: #444;
+				font-size: 1.5em;
+			}
+		</style>
+	</head>
+	<body>
+      <div class='titleDiv'>
+        <h1 class='title'>DIEZ NUTS GAMES</h1>
+        <button class='homeBtn' onclick='home()'>Home</button>
+      </div>
+      <div class='main'>
+        
+		<span class='lines'id="lines">Lines: 0</span>
+		<canvas id="board">
+		</canvas>
+		<script src="tetrominoes.js"></script>
+		<script src="tetris.js"></script>
+      </div>
+	</body>
+</html>
