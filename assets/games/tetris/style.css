@@ -2,11 +2,12 @@ body {
   margin: 0px;
   background-color: rgb(19,19,19);
   overflow-y: hidden;
+  overflow-x: hidden;
   min-height: 100vh;
 }
 .main {
   position: relative;
-  top: 140px;
+  top: 110px;
 }
 .titleDiv {
   border: 4px solid black;
